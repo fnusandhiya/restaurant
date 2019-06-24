@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pic1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+h1{
+    color: white;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+.main-nav li a:hover{
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 10px 0;
+}
+.logo img {
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+}
+.btn {
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+.button {
+    margin-top: 40px;
+}
+.btn-half {
+    background: #e67e22;
+    color: white;
+}
+.btn-full:hover {
+    background: #e67e22;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+.copy {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.features h3{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+/* psuedo class */
+h3:after{
+    width: 200px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.arranging{
+    text-align: justify;
+}
+.features i {
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 38%;
+}
+.features h4 {
+    margin-left: 40px;
+}
+.meal-showcase {
+    list-style-type: none;
+    width: 100%;
+}
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+    object-fit: cover;
+    height: 280px;
+    
+}
+.meal-photo img:hover{
+    transform: scale(1.05);
+}
+.meal{
+    margin-top: 80px;
+}
+.pic img {
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 35px;
+}
+.works-step{
+    margin-top: 50px;
+}
+.works-step div {
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.works-step img {
+    /* height: 40px; */
+    width: 130px;
+    margin-right: 20px;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix::after{
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.mobile {
+    margin-top: 60px;
+}
+.cities{
+    margin-top: 100px;
+}
+.cities img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    object-fit: cover;
+    height: 250px;
+}
+.cities h4 {
+    margin-top: 60px;
+}
+.cities i {
+    color: #e67e22;
+}
+.testimonial{
+    margin-top: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://natureselectdogfood.com/wp-content/uploads/2016/11/nature-select-dog-food.png);
+    object-fit: cover;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: white;
+    background-attachment: fixed;
+    
+}
+.testimonial cite img {
+    width: 30%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.testimonial p {
+    margin-top: 40px;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+}
+.btn-block{
+    background: #e67e22;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.gap{
+    margin-top: 40px;
+}
+.form {
+    margin-top: 40px;
+}
